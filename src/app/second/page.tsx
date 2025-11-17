@@ -10,7 +10,7 @@ export default function SecondScreen() {
 
   useEffect(() => {
     // Create audio element and play music
-    const audio = new Audio('/music.mp3'); // You'll need to add your music file to the public folder
+    const audio = new Audio('/john_pork_is_calling.mp3');
     audio.loop = true;
     audio.volume = 0.5; // Set volume to 50%
     
